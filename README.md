@@ -6,6 +6,14 @@
 
 <h1 align="center">Angular</h1>
 
+<p align="center">
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Angular%20Cli-8.3.2-brightgreen">
+  </a>
+  <a href="" target="_blank">
+    <img src="https://img.shields.io/badge/Node-12.6.0-yellow">
+  </a>
+</p>
 
 ```
      _                      _                 ____ _     ___
