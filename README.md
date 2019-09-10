@@ -13,6 +13,9 @@
   <a href="https://nodejs.org/en/" target="_blank">
     <img src="https://img.shields.io/badge/Node-12.6.0-yellow">
   </a>
+   <a href="https://ng.ant.design/" target="_blank">
+    <img src="https://img.shields.io/badge/Ant%20Design-8.3.0-blue">
+  </a>
 </p>
 
 ```
