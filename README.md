@@ -53,6 +53,7 @@
 <b>typings.d.ts</b>        不用管</br>
 
 
+| :-------- | --------:| :--: |
 | axios  | <img src="https://img.shields.io/badge/npm-0.19-green"> |  Make data requests |
 | core-js    | <img src="https://img.shields.io/badge/npm-2.6.5-green">   | Provide ES6,ES7  |
 | jquery  | <img src="https://img.shields.io/badge/npm-3.4.1-green"> | Increase of efficiency |  
