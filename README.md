@@ -28,17 +28,6 @@
 
 ```
 
-<h3>首层目录：</h3>
-<b>node_modules</b>        第三方依赖包存放目录</br>
-<b>e2e</b>                  端到端的测试目录  用来做自动测试的</br>
-<b>src</b>                 应用源代码目录 </br>
-<b>.angular-cli.json</b>    Angular命令行工具的配置文件。后期可能会去修改它，引一些其他的第三方的包  比如jquery等</br>
-<b>karma.conf.js</b>        karma是单元测试的执行器，karma.conf.js是karma的配置文件</br>
-<b>package.json</b>         这是一个标准的npm工具的配置文件，这个文件里面列出了该应用程序所使用的第三方依赖包。实际上我们在新建项目的时候，等了半天就是在下载第三方依赖包。下载完成后会放在node_modules这个目录中，后期我们可能会修改这个文件。</br>
-<b>protractor.conf.js</b>   也是一个做自动化测试的配置文件</br>
-<b>README.md</b>            说明文件</br>
-<b>tslint.json</b>          是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它</br>
-
 <h3>src目录：</h3>
 <b>app目录</b>                包含应用的组件和模块，我们要写的代码都在这个目录</br>
 <b>assets目录</b>            资源目录，存储静态资源的  比如图片</br>
@@ -52,17 +41,17 @@
 <b>test.ts</b>          也是自动化测试用的</br>
 <b>typings.d.ts</b>        不用管</br>
 
-| Project  |  Version | Description  |
-| :-------- | --------:| :--: |
-| axios  | <img src="https://img.shields.io/badge/npm-0.19-green"> |  Make data requests |
-| core-js    | <img src="https://img.shields.io/badge/npm-2.6.5-green">   | Provide ES6,ES7  |
-| jquery  | <img src="https://img.shields.io/badge/npm-3.4.1-green"> | Increase of efficiency |  
-| qrcode |   <img src="https://img.shields.io/badge/npm-1.4.1-green"> | Two-Dimensional Code Generation | 
-| vuex  |  <img src="https://img.shields.io/badge/npm-3.0.1-green"> | Common data between components | 
-| vue-city |   <img src="https://img.shields.io/badge/npm-2.0.0-green"> | Acquisition of City Names | 
-| vue-route |   <img src="https://img.shields.io/badge/npm-3.0.3-green"> | Routing parsing | 
-| vue-chartjs |  <img src="https://img.shields.io/badge/npm-3.4.2-green"> | Chart Generation Tool | 
-| vue-resource   |   <img src="https://img.shields.io/badge/npm-1.5.1-green"> | Make data requests | 
-| vue-wechat-title   | <img src="https://img.shields.io/badge/npm-2.0.5-green"> | Title tag compatible with IOS system | 
-| vue-awesome-swiper  |  <img src="https://img.shields.io/badge/npm-3.1.3-green"> | A Carousel Graph Plug-in | 
-| vue-baidu-map | <img src="https://img.shields.io/badge/npm-0.21.2-green"> | Map Plug-in | 
+
+   
+
+| 首层目录：  |  Version | 
+| :-------- | --------:|
+| node_modules  | 第三方依赖包存放目录 | 
+| e2e  | 端到端的测试目录  用来做自动测试的  |
+| src  | 应用源代码目录 | 
+| .angular-cli.json | Angular命令行工具的配置文件。后期可能会去修改它，引一些其他的第三方的包  比如jquery等 | | 
+| karma.conf.js  |  karma是单元测试的执行器，karma.conf.js是karma的配置文件 | 
+| package.json |  这是一个标准的npm工具的配置文件，这个文件里面列出了该应用程序所使用的第三方依赖包。实际上我们在新建项目的时候，等了半天就是在下载第三方依赖包。下载完成后会放在node_modules这个目录中，后期我们可能会修改这个文件 | 
+| protractor.conf.js |   也是一个做自动化测试的配置文件 |
+| README.md |  说明文件 |
+| tslint.json   |   是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它 | 
