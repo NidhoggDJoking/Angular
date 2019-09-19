@@ -52,7 +52,7 @@
 <b>test.ts</b>          也是自动化测试用的</br>
 <b>typings.d.ts</b>        不用管</br>
 
-
+| Project  |  Version | Description  |
 | :-------- | --------:| :--: |
 | axios  | <img src="https://img.shields.io/badge/npm-0.19-green"> |  Make data requests |
 | core-js    | <img src="https://img.shields.io/badge/npm-2.6.5-green">   | Provide ES6,ES7  |
