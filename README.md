@@ -30,24 +30,24 @@
 
 <h3>首层目录：</h3>
 <b>node_modules</b>        第三方依赖包存放目录</br>
-e2e                 端到端的测试目录  用来做自动测试的</br>
-src                 应用源代码目录 </br>
-.angular-cli.json   Angular命令行工具的配置文件。后期可能会去修改它，引一些其他的第三方的包  比如jquery等</br>
-karma.conf.js       karma是单元测试的执行器，karma.conf.js是karma的配置文件</br>
-package.json        这是一个标准的npm工具的配置文件，这个文件里面列出了该应用程序所使用的第三方依赖包。实际上我们在新建项目的时候，等了半天就是在下载第三方依赖包。下载完成后会放在node_modules这个目录中，后期我们可能会修改这个文件。</br>
-protractor.conf.js  也是一个做自动化测试的配置文件</br>
-README.md           说明文件</br>
-tslint.json         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它</br>
+<b>e2e</b>                  端到端的测试目录  用来做自动测试的</br>
+<b>src</b>                 应用源代码目录 </br>
+<b>.angular-cli.json</b>    Angular命令行工具的配置文件。后期可能会去修改它，引一些其他的第三方的包  比如jquery等</br>
+<b>karma.conf.js</b>        karma是单元测试的执行器，karma.conf.js是karma的配置文件</br>
+<b>package.json</b>         这是一个标准的npm工具的配置文件，这个文件里面列出了该应用程序所使用的第三方依赖包。实际上我们在新建项目的时候，等了半天就是<b>在下载第三方依赖包。下载完成后会放在node_modules这个目录中，后期我们可能会修改这个文件。</br>
+<b>protractor.conf.js</b>   也是一个做自动化测试的配置文件</br>
+<b>README.md</b>            说明文件</br>
+<b>tslint.json</b>          是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它</br>
 
 <h3>src目录：</h3>
-app目录               包含应用的组件和模块，我们要写的代码都在这个目录</br>
-assets目录            资源目录，存储静态资源的  比如图片</br>
-environments目录      环境配置。Angular是支持多环境开发的，我们可以在不同的环境下（开发环境，测试环境，生产环境）共用一套代码，主要用来配置环境的</br>
-index.html          整个应用的根html，程序启动就是访问这个页面</br>
-main.ts             整个项目的入口点，Angular通过这个文件来启动项目</br>
-polyfills.ts        主要是用来导入一些必要库，为了让Angular能正常运行在老版本下</br>
-styles.css          主要是放一些全局的样式</br>
-tsconfig.app.json   TypeScript编译器的配置,添加第三方依赖的时候会修改这个文件
-tsconfig.spec.json  不用管</br>
-test.ts             也是自动化测试用的</br>
-typings.d.ts        不用管</br>
+<b>app目录</b>                包含应用的组件和模块，我们要写的代码都在这个目录</br>
+<b>assets目录</b>            资源目录，存储静态资源的  比如图片</br>
+<b>environments目录</b>      环境配置。Angular是支持多环境开发的，我们可以在不同的环境下（开发环境，测试环境，生产环境）共用一套代码，主要用来配置环境的</br>
+<b>index.html</b>          整个应用的根html，程序启动就是访问这个页面</br>
+<b>main.ts</b>             整个项目的入口点，Angular通过这个文件来启动项目</br>
+<b>polyfills.ts</b>      主要是用来导入一些必要库，为了让Angular能正常运行在老版本下</br>
+<b>styles.css</b>         主要是放一些全局的样式</br>
+<b>tsconfig.app.json</b>   TypeScript编译器的配置,添加第三方依赖的时候会修改这个文件
+<b>tsconfig.spec.json</b>  不用管</br>
+<b>test.ts</b>          也是自动化测试用的</br>
+<b>typings.d.ts</b>        不用管</br>
