@@ -57,3 +57,13 @@
 |tsconfig.spec.json|    不用管  |
 |test.ts|               自动化测试用的  |
 |typings.d.ts|          不用管  |
+
+</br>
+```
+ng new my-app
+
+cd  my-app
+
+ng serve
+
+```
