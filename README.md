@@ -28,6 +28,8 @@
 
 ```
 
+<h3 align="center">目录结构</h3> 
+
 ```
 my-app
   |__e2e/
@@ -46,7 +48,6 @@ my-app
   |__tslint.json
  ```
   
-<h3 align="center">目录结构</h3> 
 
 | 首层目录   |  作用 | 
 | :-------- |:------| 
