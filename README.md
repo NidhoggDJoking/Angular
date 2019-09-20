@@ -28,6 +28,24 @@
 
 ```
 
+```
+my-app
+  |__e2e/
+  |   |__app.e2e-spec.ts
+  |   |__app.po.ts
+  |   |__tsconfig.json
+  |__node_modules/...
+  |__src/...
+  |__.editorconfig
+  |__.gitignore
+  |__angular-cli.json
+  |__karma.conf.js
+  |__package.json
+  |__protractor.conf.js
+  |__README.md
+  |__tslint.json
+ ```
+  
 <h3 align="center">目录结构</h3> 
 
 | 首层目录   |  作用 | 
