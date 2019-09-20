@@ -106,21 +106,21 @@ src/
 | 命令         |  说明 | 
 | :--------   | :------ | 
 |add	 	      |将对外部库的支持添加到项目中。|
-|analytics	 	|配置Angular CLI使用度量的收集。请参见https://v8.angular.io/cli/usage-analytics-gathering。|
-|build		    |在给定的输出路径上将Angular应用程序编译到名为dist/的输出目录中。必须从工作区目录中执行。|
-|config	 	    |在工作区的angular.json文件中检索或设置Angular配置。|
-|doc		      |在浏览器中打开官方Angular文档（angular.io），并搜索给定的关键字。|
-|e2e		      |构建并提供一个Angular应用程序，然后使用量角器运行端到端测试。|
-|generate		  |根据原理图生成和/或修改文件。|
-|help	 	      |列出可用命令及其简短描述。|
-|lint		      |在给定项目文件夹中的Angular应用程序代码上运行lint工具。|
-|new		      |创建新工作区和初始Angular应用程序。|
-|run	 	      |使用项目中定义的可选自定义构建器配置运行Architect目标。|
-|serve		    |构建并提供应用程序，重建文件更改。|
-|test		      |在项目中运行单元测试。|
+|analytics	 	|配置Angular CLI使用度量的收集。请参见https://v8.angular.io/cli/usage-analytics-gathering|
+|build		    |在给定的输出路径上将Angular应用程序编译到名为dist/的输出目录中。必须从工作区目录中执行|
+|config	 	    |在工作区的angular.json文件中检索或设置Angular配置|
+|doc		      |在浏览器中打开官方Angular文档（angular.io），并搜索给定的关键字|
+|e2e		      |构建并提供一个Angular应用程序，然后使用量角器运行端到端测试|
+|generate		  |根据原理图生成和/或修改文件|
+|help	 	      |列出可用命令及其简短描述|
+|lint		      |在给定项目文件夹中的Angular应用程序代码上运行lint工具|
+|new		      |创建新工作区和初始Angular应用程序|
+|run	 	      |使用项目中定义的可选自定义构建器配置运行Architect目标|
+|serve		    |构建并提供应用程序，重建文件更改|
+|test		      |在项目中运行单元测试|
 |update	 	    |更新您的应用程序及其依赖项。 见https://update.angular.io/|
-|version		  |输出Angular CLI版本。|
-|xi18n	 	    |从源代码中提取i18n消息。|
+|version		  |输出Angular CLI版本|
+|xi18n	 	    |从源代码中提取i18n消息|
 
 </br>
 
