@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module'; // 引用路由文件
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, // 依赖注入路由模块
   ],
   providers: [],
   bootstrap: [AppComponent]
