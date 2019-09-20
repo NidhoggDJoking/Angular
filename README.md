@@ -43,7 +43,27 @@
 | tslint.json |         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它 | 
 
 </br>
-
+```
+src/
+ |__app/
+ |   |__app.component.css
+ |   |__app.component.html
+ |   |__app.component.spec.ts
+ |   |__app.component.ts
+ |   |__app.module.ts
+ |__assets/
+ |   |__.gitkeep
+ |__environments/
+ |   |__environment.prod.ts
+ |   |__environment.ts
+ |__favicon.ico
+ |__index.html
+ |__main.ts
+ |__polyfills.ts
+ |__styles.css
+ |__test.ts
+ |__tsconfig.json
+```
 | src目录    |  作用 | 
 | :-------- |:------| 
 |app文件|               包含应用的组件和模块，我们要写的代码都在这个目录  |
