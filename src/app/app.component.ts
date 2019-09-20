@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular of Joking';
+  link = '以下是一些帮助您入门的链接';
 }
