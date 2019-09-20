@@ -166,7 +166,7 @@ cd  my-app
 ng serve
 ```
 
-#### 创建组件
+#### 创建组件(components 文件夹下创建组件)
 ```
 ng g component components/componentName
 ```
