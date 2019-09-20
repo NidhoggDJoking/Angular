@@ -56,8 +56,8 @@ my-app
 | src |                 应用源代码目录 | 
 | .angular-cli.json |   Angular命令行工具的配置文件。后期可能会去修改它，引一些其他的第三方的包  比如jquery等 | | 
 | karma.conf.js |       karma是单元测试的执行器，karma.conf.js是karma的配置文件 | 
-| package.json |        这是一个标准的npm工具的配置文件，这个文件里面列出了该应用程序所使用的第三方依赖包。实际上我们在新建项目的时候，等了半天就是在下载第三方依赖包。下载完成后会放在node_modules这个目录中，后期我们可能会修改这个文件 | 
-| protractor.conf.js |  也是一个做自动化测试的配置文件 |
+| package.json |        标准的npm工具的配置文件，文件里面列出了该应用程序所使用的第三方依赖包。实际上我们在新建项目的时候，等了半天就是在下载第三方依赖包。下载完成后会放在node_modules这个目录中，后期我们可能会修改这个文件 | 
+| protractor.conf.js |  做自动化测试的配置文件 |
 | README.md |           说明文件 |
 | tslint.json |         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它 | 
 
