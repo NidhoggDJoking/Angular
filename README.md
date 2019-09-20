@@ -165,3 +165,8 @@ cd  my-app
 
 ng serve
 ```
+
+#### 创建组件
+```
+ng g component components/componentName
+```
