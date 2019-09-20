@@ -43,6 +43,7 @@
 | tslint.json |         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它 | 
 
 </br>
+
 ```
 src/
  |__app/
@@ -64,6 +65,7 @@ src/
  |__test.ts
  |__tsconfig.json
 ```
+
 | src目录    |  作用 | 
 | :-------- |:------| 
 |app文件|               包含应用的组件和模块，我们要写的代码都在这个目录  |
