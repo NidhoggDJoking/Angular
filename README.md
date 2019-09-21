@@ -132,9 +132,8 @@ src/
 |test.ts|               自动化测试用的  |
 |typings.d.ts|          不用管  |
 
-<<<<<<< HEAD
 <h3>安装</h3>
-=======
+
 </br>
 
 <h3 align="center">命令</h3>
@@ -173,4 +172,4 @@ ng serve
 ```
 ng g component components/componentName
 ```
->>>>>>> d95367d0f66142b898d5cd199e922093ce0ee6c1
+
