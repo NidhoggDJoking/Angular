@@ -132,8 +132,6 @@ src/
 |test.ts|               自动化测试用的  |
 |typings.d.ts|          不用管  |
 
-<h3>安装</h3>
-
 </br>
 
 <h3 align="center">命令</h3>
