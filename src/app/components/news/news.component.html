@@ -1,2 +1,49 @@
 <h2 align="center">{{tit}}</h2>
+
+<!-- 这个特殊 -->
+<img [src]="imgUrl"/>
+
+<!-- 类似于V-for 但没有要求写Key也不报错-->
+<ul>
+    <li *ngFor="let item of list ; let key=index;">
+      {{key}} -- {{item.tit}}
+    </li>
+</ul>
+
+<!-- ngIf -->
+<div *ngIf="flag">
+    Flag is {{flag}}
+</div>
+
+<!-- 条件判断语句 *ngSwitch -->
+<span [ngSwitch]="status">
+    <p *ngSwitchCase="0">
+        ngSwitchCase=0
+    </p>
+    <p *ngSwitchCase="1">
+        ngSwitchCase=1
+    </p>
+    <p *ngSwitchDefault>
+        ngSwitchCase=null
+    </p>
+</span>
+
+<!-- ngClass、ngStyle使用和v-class，v-style用法一样 -->
+<div class="red">
+    标准Class引用
+</div>
+
+<div [ngClass]="{'red': true}">
+    使用ngClass
+</div>
+
+<div [ngStyle]="{'color': 'red'}">
+    使用ngStyle
+</div>
+
+<!-- 管道 -->
+<p>{{today | date:'yyyy-MM-dd HH:mm:SS'}}</p>
+
+
+<!-- 也能插入同级组件 -->
 <app-home></app-home>

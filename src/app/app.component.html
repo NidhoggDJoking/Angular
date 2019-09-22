@@ -298,6 +298,11 @@
     }
     
     footer li a {
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    footer li a:hover{
         color: red;
     }
 </style>
@@ -545,8 +550,8 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<footer>
-    <ul>
+<footer style="display: flex; justify-content:center;">
+    <ul style="padding: 0;">
         <li><a routerLink="home">首页</a></li>
         <li><a routerLink="news">新闻</a></li>
         <li><a routerLink="user">用户</a></li>
