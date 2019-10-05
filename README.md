@@ -171,3 +171,5 @@ ng serve
 ng g component components/componentName
 ```
 
+#### 组件生命周期
+
