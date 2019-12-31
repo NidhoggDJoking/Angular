@@ -45,5 +45,16 @@
 <p>{{today | date:'yyyy-MM-dd HH:mm:SS'}}</p>
 
 
+<!-- 点击事件 -->
+<button (click)="start()">点击事件</button>
+<br/>
+
+<button (click)="gettit()">得到tit</button>
+<br/>
+
+<button (click)="settit()">改变tit</button>
+<input (keydown)="getkey($event)" placeholder=""/>
+<br/>
+
 <!-- 也能插入同级组件 -->
 <app-home></app-home>

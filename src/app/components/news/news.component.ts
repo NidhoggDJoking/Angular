@@ -32,6 +32,17 @@ export class NewsComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  start(){
+    alert("自定义方法")
+  }
+  gettit(){
+    alert(this.tit)
+  }
+  settit(){
+    this.tit = '通过方法改变tit的值'
+  }
+  getkey(e){
+    console.log(e)
+  }
 }
  
