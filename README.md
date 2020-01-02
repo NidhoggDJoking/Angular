@@ -40,7 +40,8 @@ ng serve
 ```
 ng g component components/componentName
 ```
-
+#### 组件生命周期
+</br>
 #### 目录结构
 
 ```
@@ -111,6 +112,8 @@ my-app
 
 </br>
 
+#### Src目录
+
 ```
 src/
  |__app/
@@ -150,7 +153,7 @@ src/
 
 </br>
 
-<h3 align="center">命令</h3>
+#### 命令
 
 | 命令         |  说明 | 
 | :--------   | :------ | 
@@ -172,6 +175,4 @@ src/
 |xi18n	 	    |从源代码中提取i18n消息|
 
 </br>
-
-#### 组件生命周期
 
