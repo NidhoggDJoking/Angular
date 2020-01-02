@@ -27,7 +27,19 @@
   </a>
 </p>
 
+#### 例如
+```
+ng new my-app
 
+cd  my-app
+
+ng serve
+```
+
+#### 创建组件(components 文件夹下创建组件)
+```
+ng g component components/componentName
+```
 
 <h3 align="center">目录结构</h3> 
 
@@ -157,20 +169,6 @@ src/
 |xi18n	 	    |从源代码中提取i18n消息|
 
 </br>
-
-#### 例如
-```
-ng new my-app
-
-cd  my-app
-
-ng serve
-```
-
-#### 创建组件(components 文件夹下创建组件)
-```
-ng g component components/componentName
-```
 
 #### 组件生命周期
 
