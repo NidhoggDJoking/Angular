@@ -41,7 +41,9 @@ ng serve
 ng g component components/componentName
 ```
 #### 组件生命周期
+
 </br>
+
 #### 目录结构
 
 ```
