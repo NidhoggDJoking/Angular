@@ -63,7 +63,6 @@ my-app
 ```
  
 ```
-├── README.md
 ├── e2e
 │   ├── app.e2e-spec.ts
 │   ├── app.po.ts
@@ -91,6 +90,7 @@ my-app
 │   ├── tsconfig.app.json
 │   ├── tsconfig.spec.json
 │   └── typings.d.ts
+├── README.md
 ├── tsconfig.json
 └── tslint.json
 
