@@ -44,6 +44,25 @@ ng g component components/componentName
 #### 目录结构
 
 ```
+my-app
+  |__e2e/
+  |   |__app.e2e-spec.ts
+  |   |__app.po.ts
+  |   |__tsconfig.json
+  |__node_modules/...
+  |__src/...
+  |__.editorconfig
+  |__.gitignore
+  |__angular-cli.json
+  |__karma.conf.js
+  |__package.json
+  |__protractor.conf.js
+  |__README.md
+  |__tslint.json
+  
+```
+ 
+```
 ├── README.md
 ├── e2e
 │   ├── app.e2e-spec.ts
@@ -74,26 +93,8 @@ ng g component components/componentName
 │   └── typings.d.ts
 ├── tsconfig.json
 └── tslint.json
-```
 
-```
-my-app
-  |__e2e/
-  |   |__app.e2e-spec.ts
-  |   |__app.po.ts
-  |   |__tsconfig.json
-  |__node_modules/...
-  |__src/...
-  |__.editorconfig
-  |__.gitignore
-  |__angular-cli.json
-  |__karma.conf.js
-  |__package.json
-  |__protractor.conf.js
-  |__README.md
-  |__tslint.json
- ```
-  
+```  
 
 | 首层目录   |  作用 | 
 | :-------- |:------| 
@@ -129,6 +130,7 @@ src/
  |__styles.css
  |__test.ts
  |__tsconfig.json
+ 
 ```
 
 | src目录    |  作用 | 
