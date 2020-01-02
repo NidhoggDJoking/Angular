@@ -41,7 +41,7 @@ ng serve
 ng g component components/componentName
 ```
 
-<h3 align="center">目录结构</h3> 
+#### 目录结构
 
 ```
 ├── README.md
