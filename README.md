@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/NidhoggDJoking" target="_blank">
-    <img width="180" src="https://github.com/NidhoggDJoking/VueCli/blob/master/src/image/Logo/chicken.png" alt="logo">
+    <img width="180" src="https://raw.githubusercontent.com/NidhoggDJoking/VueCli/master/src/image/Logo/chicken.png" alt="logo">
   </a>
 </p>
 
@@ -27,7 +27,7 @@
   </a>
 </p>
 
-#### 例如
+### 例如
 ```
 ng new my-app
 
@@ -36,14 +36,14 @@ cd  my-app
 ng serve
 ```
 
-#### 创建组件(components 文件夹下创建组件)
+### 创建组件(components 文件夹下创建组件)
 ```
 ng g component components/componentName
 ```
-#### 组件生命周期
+### 组件生命周期
 
 
-#### 目录结构
+### 目录结构
 
 ```
 my-app
@@ -97,7 +97,7 @@ my-app
 └── tslint.json
 
 ```  
-#### 目录概序
+### 目录概序
 
 | 首层目录   |  作用 | 
 | :-------- |:------| 
@@ -112,7 +112,7 @@ my-app
 | tslint.json |         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它 | 
 
 
-#### Src目录
+### Src目录
 
 ```
 src/
@@ -152,7 +152,7 @@ src/
 |typings.d.ts|          不用管  |
 
 
-#### 命令
+### 命令
 
 | 命令         |  说明 | 
 | :--------   | :------ | 
