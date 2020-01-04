@@ -42,7 +42,6 @@ ng g component components/componentName
 ```
 #### 组件生命周期
 
-</br>
 
 #### 目录结构
 
@@ -112,7 +111,6 @@ my-app
 | README.md |           说明文件 |
 | tslint.json |         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它 | 
 
-</br>
 
 #### Src目录
 
@@ -153,7 +151,6 @@ src/
 |test.ts|               自动化测试用的  |
 |typings.d.ts|          不用管  |
 
-</br>
 
 #### 命令
 
@@ -176,5 +173,4 @@ src/
 |version		  |输出Angular CLI版本|
 |xi18n	 	    |从源代码中提取i18n消息|
 
-</br>
 
