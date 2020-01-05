@@ -1,4 +1,3 @@
-<link rel="shortcut icon" href="https://raw.githubusercontent.com/NidhoggDJoking/VueCli/master/src/image/Logo/sun.png" type="image/png">
 <p align="center">
   <a href="https://github.com/NidhoggDJoking" target="_blank">
     <img width="180" src="https://raw.githubusercontent.com/NidhoggDJoking/VueCli/master/src/image/Logo/sun.png" alt="logo">
