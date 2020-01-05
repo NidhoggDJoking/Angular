@@ -121,8 +121,8 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 接口：OnDestroy
 
 适用范围：指令和组件中
-
-
+   
+   
 ### 目录结构
 
 ```
@@ -177,6 +177,7 @@ my-app
 └── tslint.json
 
 ```  
+
 ### 目录概序
 
 | 首层目录   |  作用 | 
@@ -190,7 +191,7 @@ my-app
 | protractor.conf.js |  做自动化测试的配置文件 |
 | README.md |           说明文件 |
 | tslint.json |         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它 | 
-
+  
 
 ### Src目录
 
@@ -230,7 +231,7 @@ src/
 |tsconfig.spec.json|    不用管  |
 |test.ts|               自动化测试用的  |
 |typings.d.ts|          不用管  |
-
+  
 
 ### 命令
 
