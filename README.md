@@ -39,6 +39,7 @@ ng serve
 ### 创建组件(components 文件夹下创建组件)
 ```
 ng g component components/componentName
+
 ```
 ### 组件生命周期
 
@@ -46,7 +47,7 @@ Angular的每一个组件都存在一个生命周期，从创建，变更到销�
 
 Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
-1. ngOnChanges
+* 1. ngOnChanges
 
 时机：当被绑定的输入属性（@input）的值发生变化时调用，首次调用一定会发生在 ngOnInit之前；该回调方法会收到一个包含当前值和原值的changes对象。在有输入属性的情况下才会调用，该方法接受当前和上一属性值的SimpleChanges对象。如果有输入属性，会在ngOnInit之前调用。
 
@@ -54,9 +55,8 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
 适用范围： 指令和组件种；
 
- 
 
-2.ngOnInit
+* 2. ngOnInit
 
 时机：在第一轮 ngOnChanges 完成之后调用。 ( 也就是说当每个输入属性（@input）的值都触发了一次ngOnChanges 之后才会调用ngOnInit ，此时所有的输入属性都已经有了正确的初始绑定值 )；在组件初始化的时候调用，只调用一次，在第一次调用ngOnChanges之后调用
 
@@ -66,7 +66,7 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
  
 
-3.ngDoCheck 
+* 3. ngDoCheck 
 
 时机：在每个 Angular 变更检测周期中调用;用来检测所有变化（无论是Angular本身能检测还是无法检测的），并作出相应行动。在每次执行“变更检测”时被调用。在组件定义的属性或方法变更时调用(用于脏值之检测，非常耗性能，因为会把所有的属性和方法都检测一遍）
 
@@ -76,7 +76,7 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
  
 
-4.ngAfterContentInit 
+* 4. ngAfterContentInit 
 
 时机：当把内容投影进组件之后调用；在组件内容初始化之后调用，在第一次ngDoCheck之后调用，只调用一次
 
@@ -84,7 +84,7 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
 适用范围： 组件中
 
-5.ngAfterContentChecked
+* 5. ngAfterContentChecked
 
 时机：每次完成被投影组件内容的变更检测之后调用；在组件每次检查内容放生变更时调用。在ngAfterContentInit和每次ngDoCheck之后调用
 
@@ -94,7 +94,7 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
  
 
-6.ngAfterViewInit
+* 6. ngAfterViewInit
 
 时机：初始化完组件视图及其子视图之后调用；在组件相应的视图初始化之后调用，第一次ngAfterContentChecked之后调用，只调用一次
 
@@ -104,7 +104,7 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
  
 
-7.ngAfterViewChecked
+* 7. ngAfterViewChecked
 
 时机：每次做完组件视图和子视图的变更检测之后调用；在组件每次检查视图发生变更时调用。ngAfterViewInit和每次ngAfterContentChecked之后调用。
 
@@ -114,7 +114,7 @@ Angular的生命周期钩子有八种,按照生命周期的执行顺序如下
 
  
 
-8.ngOnDestroy
+* 8. ngOnDestroy
 
 时机：当 Angular 每次销毁指令 / 组件之前调用；在Angular销毁指令或组件之前做一些清理工作，比如退订可观察对象和移除事件处理器，以免导致内存泄漏。
 
